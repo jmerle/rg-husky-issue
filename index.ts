@@ -38,6 +38,7 @@ export function configureBot(bot: RGBot) {
     // Have the Bot begin our main loop when it spawns into the game
     bot.on('spawn', async () => {
         bot.chat('Hello, I have arrived!');
+        bot.chat(process.version);
         startGathering();
     });
 
