@@ -10,6 +10,7 @@
   "author": "Regression Games, Inc",
   "license": "ISC",
   "dependencies": {
+    "@jmerle/mineflayer-statemachine": "^1.7.2",
     "@types/node": "^18.14.0",
     "rg-bot": "^1.6.0"
   },
